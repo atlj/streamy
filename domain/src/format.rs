@@ -6,7 +6,7 @@ pub fn is_video_file(path: impl AsRef<Path>) -> bool {
     }
     match path.as_ref().extension().and_then(|os_str| os_str.to_str()) {
         None => false,
-        Some(extension) => matches!(extension, "mp4" | "mov" | "mkv" | "ts" | "avi"),
+        Some(extension) => matches!(extension, "mp4" | "mov" | "mkv" | "ts" | "avi" | "mpg"),
     }
 }
 

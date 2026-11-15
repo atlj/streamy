@@ -1,3 +1,7 @@
+/Users/burakguner/kod/streamy/server/src/service/media.rs
+7
+Make crawling faster
+
 /Users/burakguner/kod/streamy/server/src/prepare/mod.rs
 234
 add -faststart flag to videos
@@ -9,6 +13,10 @@ make "incorrect category name an error"
 /Users/burakguner/kod/streamy/torrent/src/qbittorrent_web_api.rs
 159
 category name can get too long
+
+/Users/burakguner/kod/streamy/torrent/src/qbittorrent_web_api.rs
+217
+this panics, probably qbittorrent bugged out and was killed. We should handle this
 
 /Users/burakguner/kod/streamy/server/src/prepare/mod.rs
 54
